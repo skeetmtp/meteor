@@ -138,7 +138,7 @@ class Runner {
     self.appRunner = new AppRunner({
       ...optionsForAppRunner,
       projectContext: self.projectContext,
-      port: self.appPort,
+      port: self.proxyPort,
       listenHost: appHost,
       mongoUrl,
       oplogUrl,
